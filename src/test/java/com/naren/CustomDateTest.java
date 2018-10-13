@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class CustomDateTest {
-	final String dateString = "20-OCT-2018";
+	final String dateString = "20-10-2018";
 	final CustomDate date = new CustomDate(dateString);
 
 	@Test
@@ -15,7 +15,7 @@ public class CustomDateTest {
 
 	@Test
 	public void testGetMonth() {
-		assertEquals("OCT", date.getMonth());
+		assertEquals(10, date.getMonth());
 	}
 
 	@Test
